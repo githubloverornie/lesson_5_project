@@ -40,8 +40,8 @@ margin-right: 15px;
     line-height: 25px;
     text-align: center;
     color: #2B292D;
-    text-decoration: none;
-}
+    text-decoration:none;
+} 
 
 .header_link:hover{
     text-decoration: underline;
@@ -235,27 +235,15 @@ padding-bottom: 30px;
     margin-top: 20px;
     font-weight: bold;
     font-size: 24px;
-    color: #000000;
     text-align: center;
-}
-
-.icons_link{
-    text-decoration:none;
 }
 
 .wrapper_icons:hover{
     background-color: #3141C5;
     cursor: pointer;
     transition: 1s;
-}
-
-.wrapper_icons>p{
     color: white;
 }
-
-/* .icons_text:hover{
-color: #ffffff;
-} */
 
 
 
