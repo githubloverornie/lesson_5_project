@@ -108,14 +108,7 @@ margin-right: 30px;
     text-align:left;
 }
 
-.text_1{
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
-    color: #2B292D;
-}
-
-.text_2{
+.text{
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
@@ -256,9 +249,13 @@ padding-bottom: 30px;
     transition: 1s;
 }
 
-.icons_text:hover{
-color: #ffffff;
+.wrapper_icons>p{
+    color: white;
 }
+
+/* .icons_text:hover{
+color: #ffffff;
+} */
 
 
 
