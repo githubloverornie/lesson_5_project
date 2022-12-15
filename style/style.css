@@ -47,13 +47,6 @@ margin-right: 15px;
     text-decoration:none;
 } 
 
-.header_li:hover::before{
-    content: '';
-    width: 90%;
-    height: 2px;
-    background-color: #2B292D;
-}
-
 .header_ul{
     margin-right: 75px;
 }
@@ -64,6 +57,7 @@ margin-right: 30px;
 
 .header_link:hover{
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .button{
@@ -76,6 +70,7 @@ margin-right: 30px;
     line-height: 13px;
     color: #FFFFFF;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .button:hover{
@@ -101,6 +96,7 @@ margin-right: 30px;
 
 .wrapper_1{
     padding-left: 130px;
+    text-align: left;
 }
 
 .wrapper_2{
