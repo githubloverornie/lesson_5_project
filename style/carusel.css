@@ -1,0 +1,130 @@
+.bx-wrapper{
+    margin: 0 auto 50px;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 50px;
+    text-align: center;
+} 
+
+.bx-wrapper .bx-pager.bx-default-pager a{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #3142C5;
+}
+
+.carusel_text-green{
+    color: green;
+}
+
+.carusel_text-1{
+    font-size: 24px;
+    line-height: 30px;
+    color: #3142C5;
+    font-weight: bold;
+}
+
+.carusel_text-1_2{
+    font-size: 24px;
+    line-height: 30px;
+    color: green;
+    font-weight: bold;
+}
+
+.carusel_text-1_3{
+    font-size: 24px;
+    line-height: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.carusel_text-3_2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+.carusel_text-1, .carusel_text-1_2, .carusel_text-1_3{
+    margin-bottom: 26px;
+}
+
+.carusel_text-3_3{
+    font-size: 16px;
+    line-height: 24px;
+    color: red;
+    font-weight: bold;
+}
+
+.carusel_text-2{
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 750px;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+
+.carusel_text-3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.carusel_text-4{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(43, 41, 45, 0.6);
+    margin-bottom: 38px;
+}  
+
+.carusel_wrapper-img{
+    width: 273px;
+    height: 243px;
+    margin: 0 auto;
+    margin-bottom: 31px;
+    margin-top: 51px;
+}
+
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:1090px){
+
+}
+
+@media screen and (max-width: 800px){
+
+}
+
+@media screen and (max-width: 550px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 360px){
+
+}
+
+@media screen and (max-width: 320px){
+    /* .about_tittle{
+        font-weight: 40px;
+        line-height: 40px;
+    } */
+}
+
+
+
+
+
+
+/*  */
+

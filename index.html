@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/carusel.css">
 </head>
 <body>
 <header class="header">
@@ -25,10 +27,19 @@
             </p>
         </div>
     </div>
-        <nav class="header_nav flex">
-            <ul class="header_ul flex">
+
+    <div class="menu">
+        <input type="checkbox" class="checkbox_menu">
+        <div class="check_wrapper">
+            <div class="check"></div>
+            <div class="check"></div>
+            <div class="check"></div>
+        </div>
+    <div class="menu-all flex_all">
+        <nav class="header_nav flex flex_menu">
+            <ul class="header_ul flex flex_menu">
                 <li class="header_li">
-                    <a class="header_link" href="#" target="blank">
+                    <a class="header_link" id="about-link" href="#" target="blank">
 Home
                     </a>
                 </li>
@@ -38,12 +49,37 @@ Stories
                     </a>
                 </li>
             </ul>
-       <button class="button">
+       <button class="button media_header-button">
                 Get started
        </button>
      </nav>
+    </div>
+  </div>
   </div>
 </header>
+<section class="section_gruve">
+    <div class="container flex gruve_container">
+        <div>
+            <h1 class="gruve_tittle">
+                Build stunning websites & apps.
+            </h1>
+            <p class="gruve_text">
+                Create live segments and target the right people for messages based on their behaviors.
+            </p>
+            <div class="wrapper_phd-buttons">
+                <button class="button button_phd-1">
+Get Started
+                </button>
+                <button id="open-modal" class="button button_white button_phd-2">
+Learn More
+                </button>
+            </div>
+        </div>
+        <div class="gruve_wrapper-img">
+            <img class="section_img_phd" src="./img/section_phd/ouch.png" alt="section_img">
+        </div>
+    </div>
+</section>
 <section class="section">
     <div class="container flex_1">
        <div class="wrapper_1">
@@ -86,6 +122,68 @@ Stories
            </div>
       </div>
 </section>
+
+
+<section class="section_djq">
+    <div class="flex_djq">
+        <div style="display: flex;">
+    <div class="wrapper_djq">
+        <img class="image_1-djq" src="./img/d_z jquery/ouch.svg" alt="ouch">
+    </div>
+    <div class="wrapper_text-djq">
+        <p class="text_1-djq">
+            Features
+        </p>
+        <p class="text_2-djq">
+            Easily find leads and customers
+        </p>
+        <p class="text_3-djq">
+            Send one-off and automated email, push, and in-app messages to people. Create better stories.
+        </p>
+        <div>
+            <div class="about_icons change_colors">
+                <div class="flex_djq-1">
+                    <img class="icon_djq" src="./img/d_z jquery/Icon (1).svg" alt="icon">
+                    <p class="about_pretittle flex_preicons">
+                        Acquire new customers
+                    </p>
+                </div>
+                <p class="about_text-djq">
+                    Everything you need to start building – including open-source code, documentation.
+                </p>
+            </div>
+            <div class="about_icons change_colors">
+                <div class="flex_djq-1">
+                    <img class="icon_djq" src="./img/d_z jquery/Icon (2).svg" alt="icon">
+                    <p class="about_pretittle flex_preicons">
+                    Engage users
+                    </p>
+                </div>
+                <p class="about_text-djq">
+                    Everything you need to start building – including open-source code, documentation.
+                </p>
+            </div>
+            <div class="about_icons change_colors">
+                <div class="flex_djq-1">
+                    <img class="icon_djq" src="./img/d_z jquery/Icon (3).svg" alt="icon">
+                    <p class="about_pretittle flex_preicons">
+                        Develop across platforms
+                    </p>
+                </div>
+                <p class="about_text-djq">
+                    Everything you need to start building – including open-source code, documentation.
+                </p>
+            </div>
+    </div>
+</div>
+    </div>
+    <div class="wrapper_2-djq">
+        <img class="image_2-djq" src="./img/d_z jquery/type_div.png" alt="div">
+    </div>
+</div>
+</section>
+
+
 <section class="inbox">
       <div class="container flex flex__inbox-column">
           <div class="container-image">
@@ -244,6 +342,129 @@ Entertainment
         </div>
    </div>
 </section>
+
+
+<section class="container">
+    <div class="carusel flex_carusel">
+        <div class="">
+            <p class="carusel_text-1">
+                Trusted by the world’s most innovative businesses – big and small
+            </p>
+            <p class="carusel_text-2">
+                “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+            </p>
+            <p class="carusel_text-3">
+Viella Malkovich
+            </p>
+            <p class="carusel_text-4">
+                Creative Director at Johnson
+            </p>
+        </div>
+        <div class="">
+            <p class="carusel_text-1_2">
+                Trusted by the world’s most innovative businesses – big and small
+            </p>
+            <p class="carusel_text-2">
+                “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+            </p>
+            <p class="carusel_text-3_2">
+Nikola Tesla 
+            </p>
+            <p class="carusel_text-4">
+                Serbian-American inventor
+            </p>
+        </div>
+        <div class="">
+            <p class="carusel_text-1_3">
+                Trusted by the world’s most innovative businesses – big and small
+            </p>
+            <p class="carusel_text-2">
+                “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+            </p>
+            <p class="carusel_text-3_3">
+Francesco Virgolini
+            </p>
+            <p class="carusel_text-4">
+                Race Car
+            </p>
+        </div>
+    </div>
+    <div class="carusel_wrapper-img flex_carusel">
+        <img class="carusel_img" src="./img/carusel/ouch.svg" alt="ouch">
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h1 class="about_tittle">
+            We're hiring
+        </h1>
+        <p class="about_text">
+            We’re a team of lifelong learners. We’re equal parts left and right brained.
+        </p>
+        <button class="about_button">
+More about Company
+        </button>
+        <div>
+            <div class="about-items change-color">
+                <div class="flex">
+                    <div class="flex_about">
+                    <p class="about-pretittle">
+                        Front-End Developer
+                    </p>
+                    <p>
+                        Los Angeles / Remote
+                    </p>
+                </div>
+                    <p class="about-icon about-rotate-icon">
+                        >
+                    </p>
+                </div>
+                <p class="about-text">
+                    Everything you need to start building – including open-source code, documentation.
+                </p>
+            </div>
+            <div class="about-items change-color">
+                <div class="flex">
+                    <div class="flex_about">
+                    <p class="about-pretittle">
+                        Community Manager
+                    </p>
+                    <p>
+                        New York / Full-Time
+                    </p>
+                    </div>
+                    <p class="about-icon about-rotate-icon">
+                        >
+                    </p>
+                </div>
+                <p class="about-text">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam iste officiis repudiandae debitis alias consectetur?
+                </p>
+            </div>
+            <div class="about-items change-color">
+                <div class="flex">
+                    <div class="flex_about">
+                    <p class="about-pretittle">
+                        UX/UI Designer
+                    </p>
+                    <p>
+                        New York / Full-Time
+                    </p>
+                </div>
+                <div class="wrapper_about-icon">
+                    <p class="about-icon about-rotate-icon">
+                        >
+                    </p>
+                </div>
+                </div>
+                <p class="about-text">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam iste officiis repudiandae debitis alias consectetur?
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="container section_grid">
         <p class="grid_tittle">
     All Surfaces Covered
@@ -291,5 +512,104 @@ Get Started
 </div>
 </div>
 </section>
+<footer class="footer">
+    <div class="footer_wrapper container_footer">
+        <div> 
+            <div class="flex_footer_1">
+                <img src="./img/footer/Icon.svg" alt="icon_footer">
+                <div class="flex_footer-spans">
+                <p class="footer_span-1 media_footer_span-1">
+Foundation
+                </p>
+                <p class="footer_span-2">
+Startup lending template
+                </p>
+            </div>
+            </div>
+            <div>
+                <p class="footer_text">
+                    Foundation is a website template for startups and small teams. It helps to build a website in no time.
+                </p>
+            </div>
+            <div class="footer_imgs-0">
+                <img src="./img/footer/AppStore.png" alt="apple store">
+                <img src="./img/footer/Google Play.png" alt="google play">
+            </div>
+        </div>
+        <div>
+            <p class="footer_span-4 media_footer_span">
+Product
+            </p>
+            <p class="footer_text_2">
+                Acquire Users 
+            </p>
+            <p class="footer_text_2">
+                Content Marketing
+            </p>
+            <p class="footer_text_2">
+                Website Templates
+            </p>
+            <p class="footer_text_2">
+                Customer Management
+            </p>
+            <p class="footer_text_2">
+                Virtual Inbox
+            </p>
+        </div>
+        <div class="footer_span-wrapper_1">
+            <p class="footer_span-5 media_footer_span">
+Company
+            </p>
+            <p class="footer_text_2">
+                About Foundation
+            </p>
+            <p class="footer_text_2">
+                Brand Guidelines
+            </p>
+            <p class="footer_text_2">
+                Press Kit
+            </p>
+            <p class="footer_text_2">
+                Support
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="container_footer">
+        <div class="flex_footer_2 flex_footer_f">
+        <div>
+            <ul>
+                <li class="footer_li">Terms</li>
+                <li class="footer_li">Privacy</li>
+                <li class="footer_li">License</li>
+            </ul>
+        </div>
+        <div class="footer_images">
+            <img src="./img/footer/icon-twitter.png" alt="twitter">
+            <img src="./img/footer/icon-fb.png" alt="facebook">
+            <img src="./img/footer/LinkedIn.png" alt="in">
+        </div>
+    </div>
+    </div>
+</footer>
+<div class="modal-overlay">
+    <div class="modal">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minima architecto dolores in voluptatum veniam! Sint autem earum eius delectus.
+        </p>
+        <p class="close">
+x
+        </p>
+    </div>
+</div>
+<div id="up">
+    <span>></span>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./script/bxslider.js"></script>
+<script src="./script/script.js"></script>
+<script src="./script/modal.js"></script>
+<script src="./script/upButton.js"></script>
 </body>
 </html>
