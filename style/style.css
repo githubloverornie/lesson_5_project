@@ -211,6 +211,7 @@ margin-right: 30px;
 .wrapper_djq{
   height: 166px;
   margin: auto 0px;
+  margin-right: 43px;
 }
 
 .image_2-djq{
@@ -1627,6 +1628,15 @@ padding-bottom: 30px;
         transform: none;
       }
 
+      .wrapper_text-djq{
+        /* margin: 0 auto; */
+        margin-left: none;
+      }
+
+      .about_icons{
+        margin: 0px;
+      }
+
 }
 
 @media screen and (max-width: 800px){
@@ -2181,5 +2191,13 @@ padding-bottom: 30px;
       .about_pretittle{
         font-size: 16px;
         line-height: 26px;
+      }
+
+      .wrapper_djq{
+        display: none;
+      }
+
+      .footer_span-2{
+        text-align: center;
       }
 }
