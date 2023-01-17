@@ -485,6 +485,12 @@ margin-right: 15px;
   font-weight: bold;
 }
 
+.flex_about{
+    display: flex;
+    align-items: center;
+    gap: 240px;
+}
+
 .about-rotate-icon{
   transform: rotate(90deg);
   transition: 300ms;
@@ -1664,6 +1670,10 @@ padding-bottom: 30px;
 
     .checkbox_menu{
       transform: translate(0px, -40px);
+    }
+
+    .flex_about{
+      display: block;
     }
   }
 
