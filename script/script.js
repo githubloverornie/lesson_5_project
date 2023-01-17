@@ -5,7 +5,7 @@ $('.about-items > div').on('click', function(){
 })
 
 $('.about_icons > div').on('click', function(){
-    $(this).children('.about_icon-djq').toggleClass('about_rotate_icons');
+    $(this).children('.about_icon-djq').toggleClass('.about_rotate_icons');
     $(this).parent('.about_icons').toggleClass('change_colors');
     $(this).next('.about_text-djq').slideToggle(300);
 })
